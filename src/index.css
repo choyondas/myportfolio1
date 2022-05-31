@@ -93,7 +93,7 @@ a{
 a:hover{
   color:var(--color-white);
 }
-.bth{
+.btn{
   width:max-content;
   display: inline-block;
   color:var(--color-primary);
