@@ -5,6 +5,7 @@ import './Header.css'
 
 import ME from '../../assets/DAS.png'
 import HeaderSocial from './HeaderSocial';
+
 const Header = () => {
     return (
         <header>
@@ -15,7 +16,7 @@ const Header = () => {
 
 
                 <CTA></CTA>
-
+                <HeaderSocial></HeaderSocial>   
                 <div className="me">
                     <img src={ME} alt="" />
 
@@ -24,7 +25,7 @@ const Header = () => {
 
 
                 <a href="#contact" className="scroll_down">Scroll Down</a>
-<HeaderSocial></HeaderSocial>
+
             </div>
         </header>
     );
