@@ -59,6 +59,10 @@
     margin: 2rem 0 2.5rem;
 }
 
+.about-text{
+    margin:40px 0;
+}
+
 /* media queries medium device */
 
 @media screen and (max-width:1024px) {

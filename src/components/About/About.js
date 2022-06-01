@@ -37,7 +37,7 @@ const About = () => {
                         </article>
                     </div>
 
-                    <p>
+                    <p className="about-text">
                         It's been more than 2 years I have been working in web development. I currently aim to learn as much as I can in a work environment and to further my own abilities in a professional setting. I enjoy working collaboratively but can also run with projects on my own. Excited to join a company and start a new journey.
                     </p>
 
