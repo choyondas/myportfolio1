@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import myphoto from '../../assets/DAS.png'
+import myphoto from '../../assets/aboutme.png'
 import { BsAward } from 'react-icons/bs';
 import { FaUsers } from 'react-icons/fa';
 import { MdGroupWork } from 'react-icons/md';
@@ -23,17 +23,17 @@ const About = () => {
                         <article className="about_card">
                             <BsAward className="about_card_icon"></BsAward>
                             <h5>Experience</h5>
-                            <small>2+ Years Working Experience</small>
+                            <small>2+ Years Working </small>
                         </article>
                         <article className="about_card">
                             <FaUsers className="about_card_icon"></FaUsers>
                             <h5>Clients</h5>
-                            <small>20+ client worldwide</small>
+                            <small>20+ worldwide</small>
                         </article>
                         <article className="about_card">
                             <MdGroupWork className="about_card_icon"></MdGroupWork>
                             <h5>Projects</h5>
-                            <small>30+ completed projects</small>
+                            <small>30+ completed</small>
                         </article>
                     </div>
 
@@ -41,7 +41,7 @@ const About = () => {
                         It's been more than 2 years I have been working in web development. I currently aim to learn as much as I can in a work environment and to further my own abilities in a professional setting. I enjoy working collaboratively but can also run with projects on my own. Excited to join a company and start a new journey.
                     </p>
 
-                    <a href="#contact" className="btn btn-primary ">Let's Talk</a>
+                    <a href="#contact" className="btn btn-primary talkbtn ">Let's Talk</a>
                 </div>
             </div>
         </section>

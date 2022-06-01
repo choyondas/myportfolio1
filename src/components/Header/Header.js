@@ -3,7 +3,7 @@ import CTA from './CTA';
 import './Header.css'
 
 
-import ME from '../../assets/DAS.png'
+import ME from '../../assets/choyondas.png'
 import HeaderSocial from './HeaderSocial';
 
 const Header = () => {
