@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import myphoto from '../../assets/aboutme.png'
+import myphoto from '../../assets/CH.JPG'
 import { BsAward } from 'react-icons/bs';
 import { FaUsers } from 'react-icons/fa';
 import { MdGroupWork } from 'react-icons/md';

@@ -32,7 +32,7 @@ code {
   --color-white:#fff;
   --color-light:rgba(255, 255,255, 0.6);
 
---transition: al 400ms ease;
+--transition: all 1s ease;
 
 --container-width-lg:75%;
 --container-width-md: 86%;

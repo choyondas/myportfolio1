@@ -16,7 +16,7 @@
     border-radius:2rem;
     overflow:hidden;
     transform: rotate(10deg);
-    
+    transition: var(--transition)
 }
 .about_me-image:hover{
     transform: rotate(0deg)
@@ -70,6 +70,12 @@
       grid-template-columns: 1fr;
       gap:0;
   }
+ .about_cards {
+     grid-template-columns: 1fr 1fr;
+     gap: 1rem;
+
+ }
+
   .about_me{
    width:50%;
    margin:2rem auto 4rem;   
