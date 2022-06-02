@@ -1,3 +1,8 @@
+
+section {
+    padding-top: 50px;
+}
+
 .about_container{
     display:grid;
     grid-template-columns: 35% 50%;
@@ -89,6 +94,9 @@
 /* media queries small device */
 
 @media screen and (max-width:600px) {
+    section {
+            margin-top: 50px;
+        }
    .about_me{
        width: 75%;
        margin:0 auto 3rem;

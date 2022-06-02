@@ -1,3 +1,6 @@
+section{
+    padding-top: 50px;
+}
 .experience_container{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -31,4 +34,43 @@ margin-bottom : 2rem;
 .experience_details{
     display:flex;
 
+}
+.experience_details_icon {
+    margin-top:6px;
+    color:var(--color-primary)
+}
+
+
+
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {
+ section{
+     display:inline;
+ }
+.experience_container{
+    grid-template-columns:1fr;
+}
+.experience_container>div{
+    width: 80%;
+    padding:2rem;
+    margin:0 auto;
+}
+.experience_content{
+    padding: 1rem;
+}
+}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+    section{
+display:inline;
+
+
+    }
+.experience_content{
+    display:grid;
+    grid-template-columns: 1fr;
+}
 }

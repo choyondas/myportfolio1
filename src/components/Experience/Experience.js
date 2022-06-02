@@ -12,7 +12,7 @@ const Experience = () => {
                     <h3>Frontend Development</h3>
                     <div className="experience_content">
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon" />
                             <div>
                                  <h4>HTML</h4>
                             <small className="text-light">Experienced</small>
@@ -20,7 +20,7 @@ const Experience = () => {
 
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon" />
                             <div>
                                  <h4>CSS</h4>
                             <small className="text-light">Experienced</small>
@@ -28,7 +28,7 @@ const Experience = () => {
                            </div>
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                           
                             <div>
                                   <h4>Javascript</h4>
@@ -37,7 +37,7 @@ const Experience = () => {
 
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                             <div>
                                 <h4>Bootstrap</h4>
                             <small className="text-light">Experienced</small>
@@ -45,7 +45,7 @@ const Experience = () => {
 
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                             <div>
                                 <h4>React</h4>
                             <small className="text-light">Experienced</small>
@@ -61,7 +61,7 @@ const Experience = () => {
                     <h3>Backend Development</h3>
                      <div className="experience_content">
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                             <div>
                                 <h4>Node js</h4>
                             <small className="text-light">Experienced</small>
@@ -69,7 +69,7 @@ const Experience = () => {
 
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                             <div>
                                  <h4>MongoDb</h4>
                             <small className="text-light">Experienced</small>
@@ -77,7 +77,7 @@ const Experience = () => {
 
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                             <div>
                                  <h4>Python</h4>
                             <small className="text-light">Intermediate</small>
@@ -85,7 +85,7 @@ const Experience = () => {
 
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                             <div>
                                  <h4>Mysql</h4>
                             <small className="text-light">Basic</small>
@@ -93,7 +93,7 @@ const Experience = () => {
 
                         </article>
                         <article className="experience_details">
-                            <HiShieldCheck />
+                            <HiShieldCheck className="experience_details_icon"/>
                             <div>
                                  <h4>Firebase</h4>
                             <small className="text-light">Experienced</small>
