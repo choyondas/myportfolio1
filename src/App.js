@@ -13,8 +13,8 @@ function App() {
       <Header></Header>
       <Nav></Nav>
       <About></About>
-      <Contact></Contact>
       <Experience></Experience>
+      <Contact></Contact>
       <Services></Services>
     </div>
   );

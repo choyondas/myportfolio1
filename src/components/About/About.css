@@ -70,11 +70,11 @@
       grid-template-columns: 1fr;
       gap:0;
   }
- .about_cards {
+ /* .about_cards {
      grid-template-columns: 1fr 1fr;
      gap: 1rem;
 
- }
+ } */
 
   .about_me{
    width:50%;
