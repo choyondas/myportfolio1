@@ -32,3 +32,17 @@ nav a.active{
     background:var(--color-bg);
     color:var(--color-white)
 }
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {
+
+}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+nav{
+    
+        gap: 1rem;
+}
+}
