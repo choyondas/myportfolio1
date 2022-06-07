@@ -8,11 +8,12 @@
 .contact_options1{
     display:flex;
     flex-direction:column;
-    gap:12%;
+    
 }
 .contact_option{
     background-color:var(--color-bg-variant);
     padding:1.2rem;
+    margin: 1rem;
     border-radius:1.2rem;
     text-align:center;
     border:1px solid transparent;
@@ -21,4 +22,42 @@
 .contact_option:hover{
     background:transparent;
     border-color:var(--color-primary-variant) ;
+}
+
+/* form */
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:1.2rem;
+}
+
+input, textarea{
+    width:100%;
+    padding:1.4rem;
+    border-radius: 0.4rem;
+    background:transparent;
+    border:2px solid var(--color-primary-variant);
+    resize:none;
+    color:var(--color-white);
+}
+
+/* media queries medium device */
+
+@media screen and (max-width:1024px) {
+  
+.container.contact_container{
+    grid-template-columns: 1fr;
+    gap:2rem;
+}
+}
+
+/* media queries small device */
+
+@media screen and (max-width:600px) {
+.container.contact_container {
+        grid-template-columns: 1fr;
+        width:var(--container-width-sm)
+    }
+
 }

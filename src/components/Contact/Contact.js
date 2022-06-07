@@ -1,10 +1,19 @@
-import React from 'react';
-import './Contact.css'
 
+import './Contact.css'
+import React, { useRef } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { RiMessengerFill } from 'react-icons/ri';
-import { IoLogoWhatsapp } from 'react-icons/io';
+import { AiFillLinkedin } from 'react-icons/ai';
+import emailjs from 'emailjs-com'
 const Contact = () => {
+    const form = useRef();
+
+      const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_6zol8lh', 'template_yxuu28c', form.current, 'user_RuWm0sqkqeCIfMyzyf4yw')
+          e.target.reset();
+  };
     return (
         <section id="contact">
             <h5>Get in Touch</h5>
@@ -26,17 +35,17 @@ const Contact = () => {
                         <a href="https://m.me/liptondas.liptondas.3" target="_blank"> Send A Message</a>
                     </article>
                     <article className="contact_option">
-                        <IoLogoWhatsapp/>
-                        <h4>Whatsapp</h4>
-                        <h5>+86-13085375070</h5>
-                        <a href="https://api.whatsapp.com/send?phone+8613085375070"target="_blank"> Send A Message</a>
+                        <AiFillLinkedin/>
+                        <h4>LinkedIn</h4>
+                        <h5>Choyon Das</h5>
+                        <a href="https://www.linkedin.com/in/choyon-das-002a82201/"target="_blank"> Send A Message</a>
                     </article>
                 </div>
 
                 {/* END OF CONTACTION  */}
 
 
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder=" Your Name" required />
                     <input type="email" name="email" id="" placeholder="Your Email" required />
                     <textarea name="message" placeholder="Your Message" required rows="10"></textarea>
