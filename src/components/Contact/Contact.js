@@ -11,7 +11,13 @@ const Contact = () => {
       const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_6zol8lh', 'template_yxuu28c', form.current, 'user_RuWm0sqkqeCIfMyzyf4yw')
+          emailjs.sendForm('service_6zol8lh', 'template_yxuu28c', form.current, 'user_RuWm0sqkqeCIfMyzyf4yw')
+              .then((result) => {
+                  console.log(result.text);
+                  alert('Email sent successfully');
+              }, (error) => {
+                  console.log(error.text);
+              });
           e.target.reset();
   };
     return (
