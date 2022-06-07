@@ -21,19 +21,29 @@ const Services = () => {
                     <ul className="service_list">
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Visual Design</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Interactive & Animation Design</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Adapt For All Devices</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Implementing A Brand</p>
+                        </li>
+                      
+                        <li>
+                            <BsCheck2Circle className='service_list_icon' />
+                            <p>Strategy & Content</p>
+                        </li>
+                      
+                        <li>
+                            <BsCheck2Circle className='service_list_icon' />
+                            <p>Wireframing & Prototyping</p>
                         </li>
                       
                     </ul>
@@ -50,23 +60,31 @@ const Services = () => {
                     <ul className="service_list">
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Web Design & Development</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>E-commerce Development</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Open Source Development</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Custome Development</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Payment Get Way</p>
+                        </li>
+                        <li>
+                            <BsCheck2Circle className='service_list_icon' />
+                            <p>CMS Website</p>
+                        </li>
+                        <li>
+                            <BsCheck2Circle className='service_list_icon' />
+                            <p>Social Media Website</p>
                         </li>
                     </ul>
                 </article>
@@ -83,19 +101,27 @@ const Services = () => {
                     <ul className="service_list">
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Vector Illustration</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Portrait Illustration</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Children's Book Illustration</p>
                         </li>
                         <li>
                             <BsCheck2Circle className='service_list_icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, non!</p>
+                            <p>Product Illustration</p>
+                        </li>
+                        <li>
+                            <BsCheck2Circle className='service_list_icon' />
+                            <p>Architectural Illustration</p>
+                        </li>
+                        <li>
+                            <BsCheck2Circle className='service_list_icon' />
+                            <p>Magazine Illustration</p>
                         </li>
                        
                     </ul>

@@ -37,11 +37,12 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
+    align-items: center;
 }
 .service_list_icon{
     color:var(--color-primary);
     margin-top: 2px;
-    font-size:2rem;
+    font-size:1rem;
 }
 
 @media screen and (max-width:1024px) {

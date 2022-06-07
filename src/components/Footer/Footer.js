@@ -6,7 +6,7 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { AiFillTwitterSquare } from 'react-icons/ai';
 const Footer = () => {
     return (
-        <footer>
+        <footer id="footer">
             <a href="#" className="footer_Logo">CHOYON DAS</a>
 
 
