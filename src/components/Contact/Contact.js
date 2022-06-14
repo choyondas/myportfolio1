@@ -21,7 +21,14 @@ const Contact = () => {
           e.target.reset();
   };
     return (
-        <section id="contact">
+        <section id="contact"
+        style={{     backgroundSize: 'cover',
+            backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
+    paddingBottom:'2rem',
+    backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+        width:'100%'}}
+        >
             <h5>Get in Touch</h5>
             <h2>Contact Me</h2>
 

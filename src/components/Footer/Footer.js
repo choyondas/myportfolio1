@@ -6,7 +6,13 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { AiFillTwitterSquare } from 'react-icons/ai';
 const Footer = () => {
     return (
-        <footer id="footer">
+        <footer id="footer"
+        style={{     backgroundSize: 'cover',
+    backgroundImage: `url(https://cutewallpaper.org/21/web-design-background-images/Award-Winning-Web-Design--Twirling-Umbrellas.jpg)`,
+    backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+        }}
+        >
             <a href="#" className="footer_Logo">CHOYON DAS</a>
 
 

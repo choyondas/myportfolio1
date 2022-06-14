@@ -7,17 +7,16 @@ import { MdGroupWork } from 'react-icons/md';
 
 const About = () => {
     return (
-        <section id='about'>
+        <section id='about' className='aboutSection'style={{     backgroundSize: 'cover',
+    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center'}}>
             <h5>Get To Know </h5>
             <h2>About Me</h2>
 
 
             <div className="about_container container">
-                <div className="about_me">
-                    <div className="about_me-image">
-                        <img src={myphoto} alt="about image" />
-                    </div>
-                </div>
+                
                 <div className="about_content">
                     <div className="about_cards">
                         <article className="about_card">
@@ -42,6 +41,11 @@ const About = () => {
                     </p>
 
                     <a href="#contact" className="btn btn-primary talkbtn ">Let's Talk</a>
+                </div>
+                <div className="about_me">
+                    <div className="about_me-image">
+                        <img src={myphoto} alt="about image" />
+                    </div>
                 </div>
             </div>
         </section>

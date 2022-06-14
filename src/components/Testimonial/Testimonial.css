@@ -5,7 +5,7 @@
 }
 
 .client_avatar{
-    width:4rem;
+    width:8rem;
     aspect-ratio: 1/1;
     overflow:hidden;
     border-radius:50%;
@@ -18,13 +18,21 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select:none;
+    display: grid;
+    grid-template-columns: 40% 40%;
+
 }
 .avatar-image{
     width:150%;
    
 }
+.testText{
+    text-align: left;
+}
 
-
+.testText small{
+    color:rgb(184, 184, 184);
+}
 
 /* media queries medium device */
 
@@ -38,6 +46,14 @@
 /* media queries small device */
 
 @media screen and (max-width:600px) {
+
+.testimonial {
+       display:flex;
+       flex-direction:column;
+
+
+    }
+
   .container.testimonial-container{
       width:var(--container-width-sm)
   }

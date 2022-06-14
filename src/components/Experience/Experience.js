@@ -3,7 +3,12 @@ import { HiShieldCheck } from 'react-icons/hi';
 import './Experience.css'
 const Experience = () => {
     return (
-        <section id="experience">
+        <section id="experience" style={{     backgroundSize: 'cover',
+    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
+            backgroundRepeat: 'no-repeat',
+            paddingBottom: '3rem',
+            backgroundPosition: 'center',
+        width:'100%'}}>
             <h5>Skills I have</h5>
             <h2>My Experience</h2>
 

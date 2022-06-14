@@ -57,7 +57,14 @@ const data = [
 
 const Portfolio = () => {
     return (
-        <section id="portfolio">
+        <section id="portfolio"
+        style={{     backgroundSize: 'cover',
+    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
+            backgroundRepeat: 'no-repeat',
+    paddingBottom: '3rem',
+            backgroundPosition: 'center',
+        width:'100%'}}
+        >
             <h5>My Recent Works</h5>
             <h2>Portfolio</h2>
             <div className="container portfolio_container">

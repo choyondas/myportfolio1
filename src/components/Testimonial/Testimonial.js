@@ -6,7 +6,7 @@ import avatar3 from "../../assets/avatar-3.jpg"
 import avatar4 from "../../assets/avatar-4.jpg"
 import avatar5 from "../../assets/avatar-5.jpg"
 // import Swiper core and required modules
-import { Pagination,EffectCoverflow  } from 'swiper';
+import { Autoplay,Pagination,EffectCoverflow  } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -49,7 +49,13 @@ const data = [
 
 const Testimonial = () => {
     return (
-        <section id="testimonial">
+        <section id="testimonial"
+        style={{     backgroundSize: 'cover',
+    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
+    backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+        width:'100%'}}
+        >
             <h5>Review From Clients</h5>
             <h2>Testimonial</h2>
 
@@ -59,6 +65,10 @@ const Testimonial = () => {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
+        autoplay={{
+          delay: 4500,
+          disableOnInteraction: false,
+        }}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -67,7 +77,7 @@ const Testimonial = () => {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[Autoplay,EffectCoverflow, Pagination]}
          className="container testimonial-container"
              
             >
@@ -78,11 +88,13 @@ const Testimonial = () => {
                 <SwiperSlide key={index} className="testimonial">
                     <div className="client_avatar">
                         <img className='avatar-image' src={avatar} alt="" />
-                    </div>
-                    <h5 className="client_name">{name}</h5>
+                    </div >
+                            <div className="testText">
+                                <h3 className="client_name">{name}</h3>
                         <small className="client_review">
                             {review}
                         </small>
+                    </div>
                 </SwiperSlide>
                 
             

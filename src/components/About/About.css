@@ -5,8 +5,9 @@ section {
 
 .about_container{
     display:grid;
-    grid-template-columns: 35% 50%;
-    gap:15%
+    grid-template-columns: 50% 35%;
+    gap:15%;
+    
 }
 .about_me{
     width:100%;
@@ -24,7 +25,10 @@ section {
     transition: var(--transition)
 }
 .about_me-image:hover{
-    transform: rotate(0deg)
+    transform: rotate(0deg);
+    background-color: white;
+        transition: var(--transition);
+        box-shadow: 3px 2px 21px 5px rgba(183, 210, 215, 0.25);
 }
 .about_cards{
     display:grid;
