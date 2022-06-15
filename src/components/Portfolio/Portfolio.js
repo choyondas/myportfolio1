@@ -49,9 +49,9 @@ const data = [
     {
         id: 6,
         image: IMG6,
-        title: 'Online Marketing',
-        github: 'https://github.com/choyondas',
-        live:'google.com'
+        title: 'Watch Store',
+        github: 'https://github.com/choyondas/assignment12watchshop',
+        live:'https://doctors-portal-c9ad8.web.app/'
     },
 ]
 
