@@ -14,37 +14,37 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Health Care Center',
-        github: 'https://github.com/choyondas',
-        live:''
+        title: 'Educational App',
+        github: 'https://github.com/choyondas/education',
+        live:'https://myedu1234.netlify.app/'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'Food Corner',
-        github: 'https://github.com/choyondas',
-        live:''
+        title: 'Foody',
+        github: 'https://github.com/choyondas/Foody',
+        live:'https://zesty-piroshki-ad9df1.netlify.app/'
     },
     {
         id: 3,
         image: IMG3,
-        title: 'Professional Handyman services',
-        github: 'https://github.com/choyondas',
-        live:''
+        title: 'Portfolio',
+        github: 'https://github.com/choyondas/myportfolio1',
+        live:'https://choyon15-portfolio.netlify.app/'
     },
     {
         id: 4,
         image: IMG4,
-        title: 'Nike shoe store',
-        github: 'https://github.com/choyondas',
-        live:''
+        title: 'Tour Bd',
+        github: 'https://github.com/choyondas/TourBD',
+        live:'https://tourmaline-conkies-56594b.netlify.app/'
     },
     {
         id: 5,
         image: IMG5,
-        title: 'Shoe corner',
-        github: 'https://github.com/choyondas',
-        live:''
+        title: 'Animation',
+        github: 'https://github.com/choyondas/animation-food',
+        live:'https://lively-quokka-41d9b9.netlify.app/'
     },
     {
         id: 6,
