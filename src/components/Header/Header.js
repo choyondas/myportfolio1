@@ -10,29 +10,50 @@ import HeaderSocial from './HeaderSocial';
 
 const Header = () => {
     return (
-        <header style={{     backgroundSize: 'cover',
-    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
-    backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-        width:'100%'}}>
+        <header >
             <div className="container header_container">
                 <h5>Hello I'm</h5>
                 <h1>Choyon Das</h1>
                 <h5 className="text-light"> Frontend Developer</h5>
-
-
                 <CTA></CTA>
                 <HeaderSocial></HeaderSocial>   
                 <div className="me">
                     <img src={ME} alt="" />
 
                 </div>
-
-
-
                 <a href="#footer" className="scroll_down"><BsFillFileArrowDownFill/></a>
 
+                
+
+
+
             </div>
+
+ <div className="square">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    
+                </ul>
+            </div>
+
+            
+ <div className="circle">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    
+                </ul>
+            </div>
+           
         </header>
     );
 };
