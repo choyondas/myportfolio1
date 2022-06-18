@@ -98,12 +98,12 @@ section {
 /* media queries small device */
 
 @media screen and (max-width:600px) {
-    section {
-            margin-top: 50px;
+    section h5 {
+            margin-top: 30px;
         }
    .about_me{
        width: 75%;
-       margin:0 auto 3rem;
+       margin:0 auto 2rem;
    }
    .about_cards{
        grid-template-columns: 1fr ;

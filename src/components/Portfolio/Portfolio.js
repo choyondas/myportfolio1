@@ -1,12 +1,15 @@
 import React from 'react';
-import './Portfolio.css'
+import './Portfolio.css';
+import Roll from 'react-reveal/Roll';
+import Fade from 'react-reveal/Fade';
+import Rotate from 'react-reveal/Rotate';
 
-import IMG1 from '../../assets/portfolio-1.png'
-import IMG2 from '../../assets/portfolio-2.png'
-import IMG3 from '../../assets/portfolio-3.png'
-import IMG4 from '../../assets/portfolio-4.png'
-import IMG5 from '../../assets/portfolio-5.png'
-import IMG6 from '../../assets/portfolio-6.png'
+import IMG1 from '../../assets/portfolio-1.png';
+import IMG2 from '../../assets/portfolio-2.png';
+import IMG3 from '../../assets/portfolio-3.png';
+import IMG4 from '../../assets/portfolio-4.png';
+import IMG5 from '../../assets/portfolio-5.png';
+import IMG6 from '../../assets/portfolio-6.png';
 
 
 
@@ -57,22 +60,20 @@ const data = [
 
 const Portfolio = () => {
     return (
-        <section id="portfolio"
-        style={{     backgroundSize: 'cover',
-    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
-            backgroundRepeat: 'no-repeat',
-    paddingBottom: '3rem',
-            backgroundPosition: 'center',
-        width:'100%'}}
-        >
+        <section id="portfolio">
+            <Roll left>
             <h5>My Recent Works</h5>
-            <h2>Portfolio</h2>
+                <h2>Portfolio</h2>
+            </Roll>
+            
             <div className="container portfolio_container">
 
                 {
                     data.map(({ id, image, title, github, live }) => {
                         return (
-                            <article key ={id} className="portfolio_item">
+                            <Rotate top right>
+                            <article key={id} className="portfolio_item">
+                                <Fade right duration={4000}>
                     <div className="portfolio_item_image">
                         <img src={image} alt={title} />
                     </div> 
@@ -81,16 +82,15 @@ const Portfolio = () => {
                           <a href={github} className='btn' target="_blank">Github</a>
                     <a href={live} className='btn btn-primary' target="_blank"> Live Demo</a>
                   </div>
-                </article>
+                                </Fade>
+                                </article>
+                                </Rotate>
                        )
                    })
                     
                 }
-
-
-               
-               
-            </div>
+ </div>
+                 
         </section>
     );
 };

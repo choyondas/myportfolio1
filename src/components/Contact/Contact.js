@@ -4,7 +4,10 @@ import React, { useRef } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { RiMessengerFill } from 'react-icons/ri';
 import { AiFillLinkedin } from 'react-icons/ai';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
+import Roll from 'react-reveal/Roll';
+import Bounce from 'react-reveal/Bounce';
+import LightSpeed from 'react-reveal/LightSpeed';
 const Contact = () => {
     const form = useRef();
 
@@ -21,41 +24,43 @@ const Contact = () => {
           e.target.reset();
   };
     return (
-        <section id="contact"
-        style={{     backgroundSize: 'cover',
-            backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
-    paddingBottom:'2rem',
-    backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-        width:'100%'}}
-        >
+        <section id="contact">
+            <Roll left>
             <h5>Get in Touch</h5>
-            <h2>Contact Me</h2>
+                <h2>Contact Me</h2>
+                </Roll>
 
 
             <div className="container contact_container">
                 <div className="contact_options1">
+                    <Bounce top duration={3000}>
                     <article className="contact_option">
                         <HiOutlineMail/>
                         <h4>Email</h4>
                         <h5>choyondas08@gmail.com</h5>
                         <a href="mailto:choyondas08@gmail.com"target="_blank"> Send A Message</a>
-                    </article>
+                        </article>
+                    </Bounce>
+                    <Bounce left duration={3000}>
                     <article className="contact_option">
                         <RiMessengerFill/>
                         <h4>Messenger</h4>
                         <h5>Choyon Das</h5>
                         <a href="https://m.me/liptondas.liptondas.3" target="_blank"> Send A Message</a>
-                    </article>
+                        </article>
+                    </Bounce>
+                    <Bounce bottom duration={3000}>
                     <article className="contact_option">
                         <AiFillLinkedin/>
                         <h4>LinkedIn</h4>
                         <h5>Choyon Das</h5>
                         <a href="https://www.linkedin.com/in/choyon-das-002a82201/"target="_blank"> Send A Message</a>
-                    </article>
+                        </article>
+                        </Bounce>
                 </div>
 
                 {/* END OF CONTACTION  */}
+                <LightSpeed right duration={3000}>
 
 
                 <form ref={form} onSubmit={sendEmail}>
@@ -64,7 +69,8 @@ const Contact = () => {
                     <textarea name="message" placeholder="Your Message" required rows="10"></textarea>
                     <button type="submit" className='btn btn-primary'>Send Message</button>
 
-                </form>
+                    </form>
+                    </LightSpeed>
             </div>
         </section>
     );

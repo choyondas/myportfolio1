@@ -14,6 +14,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/effect-coverflow";
 import 'swiper/css/pagination';
+import Roll from 'react-reveal/Roll';
+import Slide from 'react-reveal/Slide';
 
 
 const data = [
@@ -49,15 +51,11 @@ const data = [
 
 const Testimonial = () => {
     return (
-        <section id="testimonial"
-        style={{     backgroundSize: 'cover',
-    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
-    backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-        width:'100%'}}
-        >
+        <section id="testimonial">
+            <Roll right>
             <h5>Review From Clients</h5>
-            <h2>Testimonial</h2>
+                <h2>Testimonial</h2>
+                </Roll>
 
            
             <Swiper
@@ -85,6 +83,7 @@ const Testimonial = () => {
                  {
                 data.map(({ avatar, name, review }, index) => {
                     return (
+                        <Slide bottom >
                 <SwiperSlide key={index} className="testimonial">
                     <div className="client_avatar">
                         <img className='avatar-image' src={avatar} alt="" />
@@ -95,7 +94,8 @@ const Testimonial = () => {
                             {review}
                         </small>
                     </div>
-                </SwiperSlide>
+                            </SwiperSlide>
+                            </Slide>
                 
             
                   )

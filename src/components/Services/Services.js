@@ -1,24 +1,22 @@
 import React from 'react';
 import './Services.css'
-import { BsCheck2Circle} from 'react-icons/bs'
+import { BsCheck2Circle } from 'react-icons/bs';
+import Roll from 'react-reveal/Roll';
+import Bounce from 'react-reveal/Bounce';
 const Services = () => {
     return (
-        <section id="services"
-        style={{     backgroundSize: 'cover',
-    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
-    backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-            paddingBottom: '3rem',
-        width:'100%'}}
-        >
+        <section id="services">
+            <Roll right>
             <h5 className='heading'>What I Offer</h5>
-            <h2>Services</h2>
+                <h2>Services</h2>
+                </Roll>
 
             <div className="container services_container">
 
 
 
                 {/* UI/UX Design */}
+                <Bounce left duration={4000}>
                 <article className="service">
                     <div className="service_head">
                         <h3>
@@ -54,10 +52,12 @@ const Services = () => {
                         </li>
                       
                     </ul>
-                </article>
+                    </article>
+                    </Bounce>
 
 
                 {/* Web Development */}
+                <Bounce bottom duration={4000}>
                 <article className="service">
                     <div className="service_head">
                         <h3>
@@ -94,11 +94,13 @@ const Services = () => {
                             <p>Social Media Website</p>
                         </li>
                     </ul>
-                </article>
+                    </article>
+                    </Bounce>
 
 
 
                 {/* Illustration */}
+                <Bounce right duration={4000}>
                 <article className="service">
                     <div className="service_head">
                         <h3>
@@ -132,7 +134,8 @@ const Services = () => {
                         </li>
                        
                     </ul>
-                </article>
+                    </article>
+                    </Bounce>
             </div>
         </section>
     );

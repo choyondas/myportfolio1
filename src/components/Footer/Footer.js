@@ -4,6 +4,8 @@ import './Footer.css'
 import { AiFillFacebook } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { AiFillTwitterSquare } from 'react-icons/ai';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 const Footer = () => {
     return (
         <footer id="footer"
@@ -13,7 +15,10 @@ const Footer = () => {
             backgroundPosition: 'center',
         }}
         >
-            <a href="#" className="footer_Logo">CHOYON DAS</a>
+            <Zoom top duration={2000}>
+                <a href="#" className="footer_Logo">CHOYON DAS</a>
+            </Zoom>
+            <Fade top duration={3000}>
 
 
             <ul className="permalinks">
@@ -24,7 +29,8 @@ const Footer = () => {
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#testimonial">Testimonial</a></li>
                 <li><a href="#contact">Contact</a></li>
-            </ul>
+                </ul>
+                </Fade>
 
             <div className="footer_socials">
                 <a href="https://www.facebook.com/liptondas.liptondas.3"><AiFillFacebook/></a>

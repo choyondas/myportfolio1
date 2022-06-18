@@ -1,18 +1,18 @@
 import React from 'react';
 import { HiShieldCheck } from 'react-icons/hi';
-import './Experience.css'
+import './Experience.css';
+import Roll from 'react-reveal/Roll';
+import Fade from 'react-reveal/Fade';
 const Experience = () => {
     return (
-        <section id="experience" style={{     backgroundSize: 'cover',
-    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
-            backgroundRepeat: 'no-repeat',
-            paddingBottom: '3rem',
-            backgroundPosition: 'center',
-        width:'100%'}}>
+        <section id="experience" >
+            <Roll left>
             <h5>Skills I have</h5>
-            <h2>My Experience</h2>
+                <h2>My Experience</h2>
+                </Roll>
 
             <div className="container experience_container">
+                 <Fade top duration={4000}>
                 <div className="experience_frontend">
                     <h3>Frontend Development</h3>
                     <div className="experience_content">
@@ -59,9 +59,11 @@ const Experience = () => {
                         </article>
                        
                     </div>
-                </div>
+                    </div>
+                    </Fade>
 
                 {/* end of front end section */}
+                <Fade bottom duration={4000}>
                 <div className="experience_backend">
                     <h3>Backend Development</h3>
                      <div className="experience_content">
@@ -108,8 +110,10 @@ const Experience = () => {
                   
                     </div>
 
-                </div>
+                    </div>
+                    </Fade>
             </div>
+            
         </section>
     );
 };
