@@ -1,16 +1,14 @@
 import React from 'react';
-import './About.css'
-import myphoto from '../../assets/CH.JPG'
+import './About.css';
+import myphoto from '../../assets/CH.JPG';
 import { BsAward } from 'react-icons/bs';
 import { FaUsers } from 'react-icons/fa';
 import { MdGroupWork } from 'react-icons/md';
+import Animation from '../Animation';
 
 const About = () => {
     return (
-        <section id='about' className='aboutSection'style={{     backgroundSize: 'cover',
-    backgroundImage: `url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)`,
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center'}}>
+        <section id='about' className='aboutSection'>
             <h5>Get To Know </h5>
             <h2>About Me</h2>
 
@@ -47,7 +45,9 @@ const About = () => {
                         <img src={myphoto} alt="about image" />
                     </div>
                 </div>
+                
             </div>
+            
         </section>
     );
 };

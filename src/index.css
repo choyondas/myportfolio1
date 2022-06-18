@@ -28,9 +28,10 @@ code {
   --color-bg: #151019;
   --color-bg-variant: #2c2c6c;
   --color-primary:#4db5ff;
+  --color-orange:linear-gradient(45deg, #df4881, #c430d7);
   --color-primary-variant:rgba(77, 181, 255, 0.4);
   --color-white:#fff;
-  --color-light:rgba(255, 255,255, 0.6);
+  --color-light:rgba(223, 10, 191, 0.65);
 
 --transition: all 1s ease;
 
@@ -99,7 +100,8 @@ a:hover{
   display: inline-block;
   color:var(--color-primary);
   padding:0.75rem 1.2rem;
-  border-radius:0.4rem;
+  border-radius:2rem;
+  border-top-right-radius: 0;
   cursor:pointer;
   border:1px solid var(--color-primary);
   transition: var(--transition);
@@ -109,10 +111,11 @@ a:hover{
   background-color:var(--color-white);
   color:var(--color-bg);
   border-color: transparent;
+  border-top-right-radius: 2rem;
 }
 
 .btn-primary{
-  background:var(--color-primary);
+  background:var(--color-orange);
   color:var(--color-bg);
 }
 
