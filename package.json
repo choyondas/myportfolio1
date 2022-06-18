@@ -12,6 +12,8 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
+    "react-parallax": "^3.5.0",
+    "react-reveal": "^1.2.2",
     "react-scripts": "5.0.1",
     "swiper": "^8.2.2",
     "web-vitals": "^2.1.0"
