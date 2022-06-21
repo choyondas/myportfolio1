@@ -24,27 +24,27 @@ const data = [
         avatar: avatar5,
         
         name: 'Asal Mshk',
-        review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati officia asperiores, nulla officiis optio amet molestiae natus vero accusantium corporis unde, nemo ducimus, corrupti quis? Laudantium delectus dolor nostrum tempore!',
+        review: 'We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Thrive has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on monthly reports so we know how our site is doing. ',
     },
     {
         avatar: avatar2,
         name: 'Shatta Wale',
-        review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati officia asperiores, nulla officiis optio amet molestiae natus vero accusantium corporis unde, nemo ducimus, corrupti quis? Laudantium delectus dolor nostrum tempore!',
+        review: 'We re-did our website twice in a 12 month period. There was no comparison between the first company and Thrive. Professional, Creative, Attentive to Detail, Excellent Communication…If I had contracted with Choyon the first time I would not have had to do it twice.',
     },
     {
         avatar: avatar3,
         name: 'David Mill',
-        review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati officia asperiores, nulla officiis optio amet molestiae natus vero accusantium corporis unde, nemo ducimus, corrupti quis? Laudantium delectus dolor nostrum tempore!',
+        review: 'The attention to detail with Thrive’s professional staff is incredible. The entire team has proven to be very innovative and will work with ideas that I have as well and think of new ways to bring more traffic to our site in ways I would never have considered. Their pricing structure is unique and logical saving me money and achieving measurable results at the same time.',
     },
     {
         avatar: avatar4,
         name: 'Magnet',
-        review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati officia asperiores, nulla officiis optio amet molestiae natus vero accusantium corporis unde, nemo ducimus, corrupti quis? Laudantium delectus dolor nostrum tempore!',
+        review: 'We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Thrive has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on monthly reports so we know how our site is doing.',
     },
     {
         avatar: avatar1,
         name: 'Max',
-        review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati officia asperiores, nulla officiis optio amet molestiae natus vero accusantium corporis unde, nemo ducimus, corrupti quis? Laudantium delectus dolor nostrum tempore!',
+        review: 'The attention to detail with Thrive’s professional staff is incredible. The entire team has proven to be very innovative and will work with ideas that I have as well and think of new ways to bring more traffic to our site in ways I would never have considered. Their pricing structure is unique and logical saving me money and achieving measurable results at the same time.',
     },
 ]
 
